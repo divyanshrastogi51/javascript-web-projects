@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/cute-clipart/64/000000/quote.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Quote Generator</title>
+</head>
+<body>
+    <nav class="navbar fixed-top">
+        <div>Random Quote Generator</div>
+        <a href="https://divyansh-rastogi.netlify.app/"><div>Made with ❤</div></a>
+      </nav>
+   <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote-text">What you are is what you have been. What you'll be is what you do now.</span>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <hr class="separator">
+            <span id="author">Buddha</span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="hacker-quote">Hacker Quote</button>
+            <button id="change-background">Change Background</button>
+            <button id="new-quote">New Quote</button>
+        </div>
+   </div>
+   <!-- Loder -->
+   <div class="loader" id="loader"></div> 
+    <!-- Script -->
+    <script src="background.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
