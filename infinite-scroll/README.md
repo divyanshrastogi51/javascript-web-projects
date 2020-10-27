@@ -1,7 +1,7 @@
 # Infinite Scroll
 An app that teaches the integration of an asynchronous fetch request through a Proxy API . 
 
-View Infinite Scrollr [Demo](https://divyanshrastogi51.github.io/javascript-web-projects/INFINITE-SCROLL/)
+View Infinite Scrollr [Demo](https://divyanshrastogi51.github.io/javascript-web-projects/infinite-scroll/)
 ## Step by Step
 
 - Used HeroPatterns for vetcor background, Google Font
