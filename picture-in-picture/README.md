@@ -14,7 +14,7 @@ Fact- Just 10 lines of JS and Hurray you just made a screen sharing function sim
 
 ## Live Project
 
-The live project can be found [here](https://divyanshrastogi51.github.io/javascript-web-projects/picture-in-picture/).
+The live project can be found [here](https://divyanshrastogi51.github.io/javascript-web-projects/picture-in-picture/index.html).
 
 ### Instructions
 
