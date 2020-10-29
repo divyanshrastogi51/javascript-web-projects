@@ -1,0 +1,114 @@
+/* ROBOT.GIF from Giphy - https://giphy.com/gifs/robot-cinema-4d-eyedesyn-3o7abtn7DuREEpsyWY */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 100vw;
+  background: #45badd;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("./robot.gif");
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+
+
+button {
+  cursor: pointer;
+  outline: none;
+  width: 200px;
+  height: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+  background: #ff3482;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  filter: brightness(95%);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:disabled {
+  cursor: default;
+  filter: brightness(30%);
+}
+
+.bubble {
+  position: relative;
+  margin-bottom: 25px;
+  max-width: 360px;
+  max-height: 250px;
+  padding: 5px;
+  background: #ff3482;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: #fff solid 1px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bubble:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 20px 20px 0;
+  border-color: #ff3482 transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -20px;
+  left: 165px;
+}
+
+.bubble:before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 20px 20px 0;
+  border-color: #fff transparent;
+  display: block;
+  width: 0;
+  z-index: 0;
+  bottom: -21px;
+  left: 165px;
+}
+
+/* Media queries */
+@media screen and (max-width: 1000px) {
+  .container {
+    background-size: cover;
+    background-position: center center;
+  }
+
+  button {
+    box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .bubble {
+    width: 90vw;
+    margin-bottom: 60vh;
+  }
+}
