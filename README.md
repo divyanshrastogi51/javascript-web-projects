@@ -21,7 +21,7 @@
 
 
  
- ## 6. Music Player [See Live](https://divyanshrastogi51.github.io/javascript-web-projects/music-player/index.html)
+ ## 6. Music Player [See Live](https://divyanshrastogi51.github.io/javascript-web-projects/music-player/)
  ### [code](https://github.com/divyanshrastogi51/javascript-web-projects/tree/main/music-player)
 
 
